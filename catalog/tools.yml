@@ -1,0 +1,187 @@
+summary:
+  tools_tracked: 26
+  approved_merged: 1
+  last_updated: 2026-06-27
+
+tools:
+  - name: Apache Superset
+    repo: apache/superset
+    category: BI / dashboard
+    status: approved-merged
+    link: https://github.com/apache/superset
+    action: Monitor release and document usage.
+
+  - name: Natural Earth Vector
+    repo: nvkelso/natural-earth-vector
+    category: foundational geodata
+    status: audit-needed
+    link: https://github.com/nvkelso/natural-earth-vector
+    action: Audit Morocco ADM1 and propose 12-region update if acceptable.
+
+  - name: Highcharts Map Collection
+    repo: highcharts/map-collection-dist
+    category: web charting / maps
+    status: audit-needed
+    link: https://github.com/highcharts/map-collection-dist
+    action: Audit Morocco ADM1 and propose 12-region variant if missing.
+
+  - name: Plotly.js / Plotly.py / Dash
+    repo: plotly/plotly.js
+    category: web + Python visualization
+    status: audit-needed
+    link: https://github.com/plotly/plotly.js
+    action: Audit Morocco map behavior and propose Morocco-view example.
+
+  - name: Vega Datasets / Vega-Lite / Altair
+    repo: vega/vega-datasets
+    category: visualization grammar ecosystem
+    status: audit-needed
+    link: https://github.com/vega/vega-datasets
+    action: Add Morocco-compatible GeoJSON/TopoJSON example.
+
+  - name: Elastic EMS File Service / Kibana
+    repo: elastic/ems-file-service
+    category: search / government dashboards
+    status: audit-needed
+    link: https://github.com/elastic/ems-file-service
+    action: Check Morocco ADM1 support and propose boundary layer.
+
+  - name: Apache ECharts
+    repo: apache/echarts
+    category: web charting
+    status: docs-needed
+    link: https://github.com/apache/echarts
+    action: Add Morocco GeoJSON usage example.
+
+  - name: Metabase
+    repo: metabase/metabase
+    category: BI / dashboard
+    status: docs-needed
+    link: https://github.com/metabase/metabase
+    action: Add Morocco custom-map guide.
+
+  - name: Grafana
+    repo: grafana/grafana
+    category: monitoring / observability
+    status: docs-needed
+    link: https://github.com/grafana/grafana
+    action: Add Morocco GeoJSON geomap example.
+
+  - name: Leaflet
+    repo: Leaflet/Leaflet
+    category: web GIS renderer
+    status: docs-needed
+    link: https://github.com/Leaflet/Leaflet
+    action: Add ready-to-use Morocco GeoJSON example.
+
+  - name: OpenLayers
+    repo: openlayers/openlayers
+    category: web GIS renderer
+    status: docs-needed
+    link: https://github.com/openlayers/openlayers
+    action: Add Morocco GeoJSON example.
+
+  - name: MapLibre GL JS
+    repo: maplibre/maplibre-gl-js
+    category: vector maps / web GIS
+    status: docs-needed
+    link: https://github.com/maplibre/maplibre-gl-js
+    action: Add Morocco source/layer example.
+
+  - name: deck.gl / kepler.gl
+    repo: visgl/deck.gl
+    category: geospatial analytics
+    status: docs-needed
+    link: https://github.com/visgl/deck.gl
+    action: Add Morocco GeoJSON layer example.
+
+  - name: GeoServer
+    repo: geoserver/geoserver
+    category: geospatial server
+    status: format-needed
+    link: https://github.com/geoserver/geoserver
+    action: Provide GeoPackage/Shapefile and style examples.
+
+  - name: QGIS
+    repo: qgis/QGIS
+    category: desktop GIS
+    status: format-needed
+    link: https://github.com/qgis/QGIS
+    action: Provide QGIS-ready GeoPackage/QML style.
+
+  - name: R sf
+    repo: r-spatial/sf
+    category: R geospatial
+    status: docs-needed
+    link: https://github.com/r-spatial/sf
+    action: Add Morocco GeoJSON loading/validation example.
+
+  - name: R leaflet
+    repo: rstudio/leaflet
+    category: R web maps
+    status: docs-needed
+    link: https://github.com/rstudio/leaflet
+    action: Add Morocco choropleth example.
+
+  - name: R tmap
+    repo: r-tmap/tmap
+    category: R thematic maps
+    status: docs-needed
+    link: https://github.com/r-tmap/tmap
+    action: Add Morocco 12-region thematic map example.
+
+  - name: R rnaturalearth
+    repo: ropensci/rnaturalearth
+    category: R Natural Earth access
+    status: audit-needed
+    link: https://github.com/ropensci/rnaturalearth
+    action: Audit Morocco ADM1 limitations and document workaround.
+
+  - name: GeoPandas
+    repo: geopandas/geopandas
+    category: Python geospatial
+    status: docs-needed
+    link: https://github.com/geopandas/geopandas
+    action: Add Morocco GeoJSON loading/validation example.
+
+  - name: Folium
+    repo: python-visualization/folium
+    category: Python web maps
+    status: docs-needed
+    link: https://github.com/python-visualization/folium
+    action: Add Morocco choropleth example.
+
+  - name: Cartopy
+    repo: SciTools/cartopy
+    category: Python cartography
+    status: docs-needed
+    link: https://github.com/SciTools/cartopy
+    action: Document Morocco GeoJSON overlay workflow.
+
+  - name: contextily
+    repo: geopandas/contextily
+    category: Python basemaps
+    status: docs-needed
+    link: https://github.com/geopandas/contextily
+    action: Document Morocco overlay usage with GeoPandas.
+
+  - name: topojson/world-atlas
+    repo: topojson/world-atlas
+    category: TopoJSON data
+    status: archived-monitor
+    link: https://github.com/topojson/world-atlas
+    action: Track as dependency; avoid PR unless forked.
+
+  - name: amCharts Geodata
+    repo: amcharts/amcharts4-geodata
+    category: web charting / maps
+    status: alternative-available
+    link: https://github.com/amcharts/amcharts4-geodata
+    action: Monitor and document compatibility.
+
+  - name: DataHub geo-countries
+    repo: datasets/geo-countries
+    category: open data package
+    status: audit-needed
+    link: https://github.com/datasets/geo-countries
+    action: Audit Morocco outline and licensing.
