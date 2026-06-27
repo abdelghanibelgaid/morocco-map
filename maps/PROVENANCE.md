@@ -4,7 +4,7 @@ This document records the provenance of map files included in this repository.
 
 ## Source geometry
 
-The original Morocco geometry was manually authored by the maintenaier of this repository. No third-party geometry was copied, imported, or derived to create the coordinate geometry. The resulting polygons were manually reviewed and normalized for Morocco’s current 12-region administrative structure.
+The original Morocco geometry was manually authored by the maintainers of this repository. No third-party geometry was copied, imported, or derived to create the coordinate geometry. The resulting polygons were manually reviewed and normalized for Morocco’s current 12-region administrative structure.
 
 ## Administrative structure
 
